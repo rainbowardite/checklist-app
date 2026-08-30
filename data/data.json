@@ -1,0 +1,1613 @@
+{
+  "before start": {
+    "section title": "Before Start",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Entrance door",
+        "action": "SECURE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Crew/Passenger Briefing",
+        "action": "COMPLETE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Seats/Pedals",
+        "action": "ADJUST"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Fuel quantity",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Parking brake",
+        "action": "CHECK LOCKED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "EPU",
+        "action": "OFF"
+      },
+      {
+        "color": "yellow",
+        "type": "footnote",
+        "prompt": "If no GPU connected",
+        "action": "none"
+      },
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Switches",
+        "action": "CHECK OFF"
+      },
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Battery switch",
+        "action": "BAT"
+      },
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Avionics master switch",
+        "action": "COM1 ONLY"
+      }
+    ]
+  },
+
+  "right engine start": {
+    "section title": "Right Engine Start",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Transponder",
+        "action": "STBY"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Anti collision light",
+        "action": "GND"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Power lever",
+        "action": "IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Condition lever",
+        "action": "CUT OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Firewall shut off valve",
+        "action": "OPEN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Fuel pump",
+        "action": "MAIN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Fuel pressure light",
+        "action": "CHECK OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Bleed air switches",
+        "action": "CHECK OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Ignition Switch",
+        "action": "CHECK NORM"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Propeller",
+        "action": "VERIFY CLEAR"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Engine start switch",
+        "action": "START"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "At 13% NG",
+        "action": "none"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Condition lever",
+        "action": "GROUND IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "ITT",
+        "action": "MONITOR (1000C Max. 5 sec.)"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Oil pressure",
+        "action": "CHECK INCREASING"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "NG RPM",
+        "action": "CHECK INCREASING"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "At 40% NG",
+        "action": "none"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Engine start switches",
+        "action": "CHECK OFF"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "With Engine at Ground Idle Setting",
+        "action": "none"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "ITT",
+        "action": "750C MAX"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Oil pressure",
+        "action": "60 PSI MIN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Oil temperature",
+        "action": "110C MAX"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "NG RPM",
+        "action": "54% MIN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "NP RPM",
+        "action": "900 RPM MIN"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Ammeter",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Hydraulic pump switch",
+        "action": "HYD"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Hydraulic pump pressure",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Hydraulic pump light",
+        "action": "OFF"
+      }
+    ]
+  },
+
+  "left engine start no gpu": {
+    "section title": "Left Engine Start (One Engine Operating)",
+    "entries": [
+      {
+      "color": "white",
+      "type": "footnote",
+      "prompt": "Skip For Left Engine Start with GPU",
+      "action": "none"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Condition lever",
+        "action": "FLIGHT IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "GPU",
+        "action": "DISCONNECT"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Generator",
+        "action": "ON"
+      },
+      {
+        "color": "blue",
+        "type": "footnote",
+        "prompt": "Open SYS MFD Page",
+        "action": "none"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Ammeter",
+        "action": "CHECK below 160 Amp"
+      }
+    ]
+  },
+
+  "left engine start": {
+    "section title": "Left Engine Start",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Firewall shut off valves",
+        "action": "CHECK OPEN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Left Power lever",
+        "action": "IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Left Condition lever",
+        "action": "CUT OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Fuel pumps",
+        "action": "MAIN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Bleed Air Switches",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Ignition Switches",
+        "action": "NORM"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Right Propeller",
+        "action": "VERIFY CLEAR"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Engine start switch",
+        "action": "START"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "At 13% NG",
+        "action": "none"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Left Condition lever",
+        "action": "GROUND IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "ITT",
+        "action": "MONITOR (1000C Max. 5 sec.)"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Oil pressure",
+        "action": "CHECK INCREASING"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "NG RPM",
+        "action": "CHECK INCREASING"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "At 40% NG",
+        "action": "none"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Engine start switches",
+        "action": "CHECK OFF"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "With Engine at Ground Idle Setting",
+        "action": "none"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "ITT",
+        "action": "750C MAX"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "ITT",
+        "action": "750C MAX"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Oil pressure",
+        "action": "60 PSI MIN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Oil temperature",
+        "action": "110C MAX"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "NG RPM",
+        "action": "54% MIN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "NP RPM",
+        "action": "900 RPM MIN"
+      }
+    ]
+  },
+
+  "post start checks": {
+    "section title": "Post Start Checks",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Condition levers",
+        "action": "BOTH GROUND IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "GPU",
+        "action": "VERIFY DISCONNECTED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Generators",
+        "action": "ON"
+      }
+    ]
+  },
+
+  "before taxi": {
+    "section title": "Before Taxi",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "EPU",
+        "action": "TEST"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "EPU switch",
+        "action": "ARM"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Avionics switch",
+        "action": "ON"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Transponder",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Cooling",
+        "action": "COOL"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Environmental temperature",
+        "action": "AUTO AND TEMP SELECT AS NECESSARY"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Bleed air switches",
+        "action": " SET to L and R positions"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Pressurization Auto/Man switch",
+        "action": "CHECK AUTO"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Auto Sched/Cab sel switch",
+        "action": "CHECK AUTO SCHED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Landing altitude",
+        "action": "SET"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Barometric correction",
+        "action": "SET"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Rate selection",
+        "action": "SET (PIP mark)"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Engine oil coolers",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Gyros",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Radios",
+        "action": "SET and CHECK"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Air Data Computer",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Overspeed warning",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Hydraulic system",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Steering system",
+        "action": "TEST"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Steering",
+        "action": "TAXI"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Pitot/stall/static heat",
+        "action": "CHECK"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Stall warning",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Flaps system",
+        "action": "TEST"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Flaps",
+        "action": "MID"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Trim systems",
+        "action": "Set for take-off"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Ice detector",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "WSHLD heat ",
+        "action": "CHECK"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Engine ice vane/oil cooler intake",
+        "action": "CHECK"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Engine inlet de-ice boots",
+        "action": "CHECK"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Anti ice Main wing",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Anti ice Fwd wing",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "EFIS",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Autopilot",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Radio altimeter",
+        "action": "TEST"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Annunciator panel",
+        "action": "TEST and CHECK CAB DOOR warning light flashing"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "BAG DOOR AND CAB DOOR warning lights",
+        "action": "CHECK OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Parking brake",
+        "action": "RELEASE"
+      }
+    ]
+  },
+
+  "taxi": {
+    "section title": "Taxi",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Brakes",
+        "action": "CHECK (avoid excessive use)"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Steering system",
+        "action": "Off on a level runway"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Airplane",
+        "action": "CHECK no tendency to yaw left or right"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Steering system",
+        "action": "TAXI"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Prop reverse",
+        "action": "CHECK"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Prop feathering",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Flight instruments",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Flight Director",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "TO/GA Button",
+        "action": "PRESS AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "LNAV",
+        "action": "SELECT AS REQUIRED"
+      }
+    ]
+  },
+
+  "engine run-up": {
+    "section title": "Engine Run-Up",
+    "entries": [
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Parking brake",
+        "action": "SET LOCKED"
+      },
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Condition levers",
+        "action": "MAX RPM"
+      },
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Power levers",
+        "action": "Advance to 2000 RPM"
+      },
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Propeller overspeed",
+        "action": "TEST"
+      },
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Propeller governing",
+        "action": "CHECK to minimum RPM"
+      },
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Autofeather system",
+        "action": "TEST"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Autofeather switch ",
+        "action": "ARM"
+      },
+      {
+        "color": "yellow",
+        "type": "checkmark",
+        "prompt": "Parking brake",
+        "action": "RELEASE"
+      }
+    ]
+  },
+
+  "before takeoff": {
+    "section title": "Before Takeoff",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Circuit breakers",
+        "action": "CHECK IN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Anti col. lights",
+        "action": "AIR"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Windshield heat",
+        "action": "LO or HI as necessary"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Pitot/Stall/Static heat",
+        "action": "ON"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Seat belts and no smoking signs",
+        "action": "VERIFY ON"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Flight instruments, navigation, radios",
+        "action": "SET and CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Engine gauges",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Warning and caution lights",
+        "action": "CHECK OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Transponder",
+        "action": "SET RA"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Bleed air switches",
+        "action": "CHECK to L and R positions"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Fuel pumps",
+        "action": "CHECK MAIN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Condition levers",
+        "action": "CHECK MAX RPM"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Flaps",
+        "action": "CHECK MID"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Longitudinal trim",
+        "action": "CHECK TAKEOFF SET"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Aileron trim",
+        "action": "CHECK NEUTRAL"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Rudder trim",
+        "action": "CHECK NEUTRAL"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Flight controls",
+        "action": "CHECK FREE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Steering",
+        "action": "TAKEOFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Oil cool",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Taxi/landing lights",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Navigation lights",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Ice protection systems",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Weather Radar",
+        "action": "AS REQUIRED"
+      }
+    ]
+  },
+
+  "takeoff": {
+    "section title": "Takeoff",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Brakes",
+        "action": "HOLD"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Circuit breakers",
+        "action": "CHECK IN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Condition levers",
+        "action": "CHECK MAX RPM"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Autofeather switch",
+        "action": "VERIFY ARM"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Power levers",
+        "action": "Advance to takeoff power"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Autofeather System",
+        "action": "VERIFY"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Engine gauges",
+        "action": "WITHIN LIMITS"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Brakes",
+        "action": "RELEASE"
+      },
+      {
+        "color": "white",
+        "type": "speed",
+        "prompt": "Steering",
+        "action": "OFF",
+        "speed_color": "yellow",
+        "speed": "below 60 KIAS"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "Rotate Above 110 KIAS"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "Accelerate to 120 KIAS until above 50 ft."
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Yaw Damper",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "speed",
+        "prompt": "Taxi/landing lights",
+        "action": "OFF",
+        "speed_color": "yellow",
+        "speed": "below 160 KIAS"
+      },
+      {
+        "color": "white",
+        "type": "speed",
+        "prompt": "Autofeather",
+        "action": "OFF",
+        "speed_color": "orange",
+        "speed": "above 150 KIAS"
+      },
+      {
+        "color": "white",
+        "type": "speed",
+        "prompt": "Flaps",
+        "action": "UP",
+        "speed_color": "yellow",
+        "speed": "below 170 KIAS"
+      }
+    ]
+  },
+
+  "climb": {
+    "section title": "Climb",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Climb Power",
+        "action": "SET"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "Airspeed:"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "165 KIAS below 30,000 ft."
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "160 KIAS at 30,000 ft, -1 kt for every 1,000 ft."
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Prop sync",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "Passing 10,000ft."
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Seat belts and no smoking signs",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "Periodically Scan:"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Pressurization",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Windshield heat",
+        "action": "LO or HI as necessary"
+      }
+    ]
+  },
+
+  "cruise": {
+    "section title": "Cruise",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Cruise power",
+        "action": "SET"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Airspeed",
+        "action": "Refer to Manual"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Engine instruments",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Pressurization",
+        "action": "CHECK"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Environmental control system",
+        "action": "CHECK"
+      }
+    ]
+  },
+
+  "descent": {
+    "section title": "Descent",
+    "entries": [
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "Periodically Scan:"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Windshield heat",
+        "action": "LO or HI as necessary"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Pressurization",
+        "action": "CHECK"
+      },
+      {
+        "color": "blue",
+        "type": "checkmark",
+        "prompt": "Environmental control system",
+        "action": "CHECK"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "Passing 10,000ft."
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Seat belts and no smoking signs",
+        "action": "ON"
+      }
+    ]
+  },
+
+  "before landing": {
+    "section title": "Before Landing",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Prop sync",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Seat belts and no smoking signs",
+        "action": "VERIFY ON"
+      },
+      {
+        "color": "white",
+        "type": "speed",
+        "prompt": "Gear lever",
+        "action": "Down",
+        "speed": "below 180 KIAS",
+        "speed_color": "yellow"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Gear",
+        "action": "CHECK 3 GREEN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Steering",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "speed",
+        "prompt": "Flaps",
+        "action": "MID",
+        "speed": "below 170 KIAS",
+        "speed_color": "yellow"
+      },
+      {
+        "color": "white",
+        "type": "speed",
+        "prompt": "Autofeather",
+        "action": "ARM",
+        "speed": "below 150 KIAS",
+        "speed_color": "yellow"
+      },
+      {
+        "color": "white",
+        "type": "speed",
+        "prompt": "Landing lights",
+        "action": "AS REQUIRED",
+        "speed": "below 160 KIAS",
+        "speed_color": "yellow"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "On final approach"
+      },
+      {
+        "color": "white",
+        "type": "speed",
+        "prompt": "Flaps",
+        "action": "DN",
+        "speed": "below 150 KIAS",
+        "speed_color": "yellow"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Autopilot",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Yaw Damper",
+        "action": "Off"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Cabin pressure barometric condition",
+        "action": "CHECK"
+      }
+    ]
+  },
+
+  "landing": {
+    "section title": "Landing",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Landing gear",
+        "action": "CHECK DN (3 green lights)"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Flaps",
+        "action": "CHECK DN"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "Approach speed: ~ 115 KIAS"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Condition levers",
+        "action": "CHECK MAX RPM"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Power",
+        "action": "AS REQUIRED"
+      }
+    ]
+  },
+
+  "after landing on runway": {
+    "section title": "After Landing (on runway)",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Brakes",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Reverse",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "Engage reverse below 1900 prop RPM or 5% drop from the set value"
+      },
+      {
+        "color": "yellow",
+        "type": "footnote",
+        "prompt": "AVOID USE below 40 KIAS"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Condition levers",
+        "action": "GROUND IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Steering",
+        "action": "TAKE OFF (if necessary)"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Power levers",
+        "action": "IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Steering",
+        "action": "TAXI (if necessary)"
+      }
+    ]
+  },
+
+  "after landing": {
+    "section title": "After Landing",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Flaps",
+        "action": "UP"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Weather Radar",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Transponder",
+        "action": "STBY"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Anticollision lights",
+        "action": "GROUND"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Taxi/landing lights",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "RECOG Light",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "WING Light",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Ice protection equipment heat",
+        "action": "ALL OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Autofeather",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Cabin altitude and pressure",
+        "action": "CHECK Landing Field / Zero"
+      }
+    ]
+  },
+
+  "parking": {
+    "section title": "Parking",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Taxi Light",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Parking brake",
+        "action": "SET"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Bleed air",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Cooling",
+        "action": "FAN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "EPS",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Power lever",
+        "action": "CHECK IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Condition lever",
+        "action": "CHECK GROUND IDLE"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Hydraulic pump",
+        "action": "OFF"
+      }
+    ]
+  },
+
+  "gpu turnaround": {
+    "section title": "GPU Turnaround",
+    "entries": [
+      {
+        "color": "white",
+        "type": "footnote",
+        "prompt": "When GPU Ready to Connect"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Generators",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "GPU",
+        "action": "CONNECT"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Condition levers",
+        "action": "CUT OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Fuel pumps",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Firewall shut off valves",
+        "action": "CLOSED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Anticollision lights",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Seat belts and no smoking signs",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Passenger door",
+        "action": "OPEN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Chocks",
+        "action": "SET"
+      }
+    ]
+  },
+
+  "shutdown": {
+    "section title": "Shutdown",
+    "entries": [
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Avionics switch",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Condition levers",
+        "action": "CUT OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Fuel pumps",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Firewall shut off valves",
+        "action": "CLOSED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Anticollision lights",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Seat belts and no smoking signs",
+        "action": "AS REQUIRED"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "All electrical switches",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Battery switch",
+        "action": "OFF"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Passenger door",
+        "action": "OPEN"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Chocks",
+        "action": "SET"
+      },
+      {
+        "color": "white",
+        "type": "checkmark",
+        "prompt": "Exterior Covers",
+        "action": "AS REQUIRED"
+      }
+    ]
+  }
+}
