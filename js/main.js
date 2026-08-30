@@ -76,7 +76,6 @@ let display_data = (data) => {
   }
 }
 
-
 fetch('./data/data.json')
   .then(response => {
     if (!response.ok) throw new Error('Network response error');
@@ -84,3 +83,13 @@ fetch('./data/data.json')
   })
   .then(data => display_data(data))
   .catch(error => console.error('Error loading JSON:', error));
+
+
+const topRefresh = document.getElementById('top_refresh');
+topRefresh.addEventListener('click', () => {
+  window.location.reload();
+});
+const bottomRefresh = document.getElementById('bottom_refresh');
+bottomRefresh.addEventListener('click', () => {
+    window.location.reload();
+});
